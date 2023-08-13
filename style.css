@@ -1,0 +1,530 @@
+/* fonts used */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: var(--dark-background, #161412);
+    width: 100vh;
+    height: 100vh;
+}
+
+/* logo side navbar Auto - Pay */
+
+.logo-with-text {
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+/* Logo Styling */
+.logo {
+    width: 2.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    scale: 90%;
+    position: relative;
+}
+
+
+/* entire navbar */
+
+.navbar {
+    left: 20rem;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* navbar right side list positioning */
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* right side navbar buttons styling */
+.navbtn {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+    position: relative;
+    left: 38rem;
+}
+
+/* Home button styling */
+.home {
+    color: var(--primary-green, #96D068);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+}
+
+/* underline -  Home button */
+.home::after {
+    content: "";
+    width: 18px;
+    border-bottom: 2px solid #96D068;
+    position: absolute;
+    top: 1.5rem;
+    left: 0.9rem;
+}
+
+/* Logo text-Auto */
+.auto {
+    color: var(--primary-green, #96D068);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
+/* Logo text-Pay */
+.pay {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
+/* First Button under Navbar styling */
+.first-btn-style {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FF6154;
+    color: #FFF;
+}
+
+/* first button under navbar Position */
+.first-btn {
+    position: relative;
+    left: 81rem;
+    top: 5rem;
+    padding-bottom: 2rem;
+}
+
+/* frist header */
+.header {
+    position: relative;
+    width: 1095px;
+    height: 234px;
+    top: 6.25rem;
+    left: 54.5rem;
+    font-family: Poppins;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 117px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFF;
+}
+
+/* green "automated" word */
+.automated {
+    color: #96D068
+}
+
+/* description - first text under first header */
+.description {
+    position: relative;
+    width: 917px;
+    height: 72px;
+    top: 10rem;
+    left: 60.5rem;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFF;
+}
+
+/* Laptop App Preview Photo - style with mobile app preview photo next to it */
+.img1 {
+    position: relative;
+    width: 887px;
+    height: 499px;
+    top: 15rem;
+    left: 59.5rem;
+}
+
+/* Mobile app preview Photo - to be styled right to previous image */
+
+.img2 {
+    position: absolute;
+    width: 14.4375rem;
+    height: 28.875rem;
+    flex-shrink: 0;
+    right: -2.85rem;
+    top: 5rem;
+}
+
+/* Explore App - Checkout Demo Buttons under first Previews of the app */
+.btn-set {
+    padding-top: 2rem;
+    position: relative;
+    left: 75.5rem;
+    top: 20rem;
+}
+
+/* Explore Button */
+.explore {
+    border-radius: 0.625rem;
+    background: var(--primary-green, #96D068);
+    width: 12.5rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    margin-right: 2rem;
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+
+}
+
+/* Checkout Demo Button */
+.checkoutdemo {
+    border-radius: 0.625rem;
+    background: var(--primary-blue, #65B7E2);
+    width: 12.5rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.05rem;
+}
+
+/* Custom API section */
+.custom-api {
+    position: relative;
+    top: 22.5rem;
+    left: 42.5rem;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.custom-api-img {
+    width: 37.5rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+}
+
+.custom-api-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 47.5rem;
+}
+
+.custom-api-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+}
+
+.custom-api-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 10.5rem;
+}
+
+/* Custom Api Section Ends Here */
+/* Mobile Compatible Checkout Section */
+.mobile-compatible-checkout {
+    position: relative;
+    top: 22.5rem;
+    left: 42.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mobile-checkout-photo {
+    width: 37.5rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+}
+
+.mobile-checkout-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 47.5rem;
+}
+
+.mobile-checkout-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+}
+
+.mobile-checkout-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 10.5rem;
+}
+
+/* Mobile Compatible Checkout Section Ends here*/
+/* Cross Chain Section */
+.cross-chain {
+    position: relative;
+    top: 22.5rem;
+    left: 42.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.cross-chain-img {
+    width: 37.5rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+    padding-right: 3.75rem;
+
+}
+
+.cross-chain-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 47.5rem;
+
+}
+
+.cross-chain-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+}
+
+.cross-chain-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 10.5rem;
+
+}
+
+/* Cross Chain Section Ends here*/
+/* Secure On Chain Section */
+.secure-on-chain {
+    position: relative;
+    top: 22.5rem;
+    left: 42.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.secure-on-chain-img {
+    width: 37.5rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+}
+
+.secure-on-chain-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 47.5rem;
+}
+
+.secure-on-chain-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+}
+
+.secure-on-chain-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 10.5rem;
+    padding-right: 5rem;
+}
+
+/* Secure On Chain Section Ends here*/
+/* Visibility and Control Section */
+.visibility-and-control {
+    position: relative;
+    top: 22.5rem;
+    left: 42.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.visibility-and-control-img {
+    width: 37.5rem;
+    height: 37.5rem;
+    flex-shrink: 0;
+}
+
+.visibility-and-control-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 49.25rem;
+}
+
+.visibility-and-control-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+}
+
+.visibility-and-control-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 10.5rem;
+}
+
+/* Visibility and Control Section Ends here*/
+/* Connect With Us Section */
+.connect-with-us {
+    width: 92rem;
+    height: 22.6875rem;
+    flex-shrink: 0;
+    position: relative;
+    top: 22.5rem;
+    left: 44.5rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 1.25rem;
+    background: linear-gradient(148deg, rgba(109, 109, 109, 0.60) 0%, rgba(17, 16, 29, 0.60) 100%);
+    margin-top: 10.5rem;
+
+}
+
+.connect-with-us-h6 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.86rem;
+    width: 49.25rem;
+    padding: 3rem 3rem 2rem 2rem;
+}
+
+.connect-with-us-h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8225rem;
+    width: 47.5rem;
+    padding: 0 0 0 2rem;
+}
+
+.connect-with-us-btn {
+    width: 15.625rem;
+    height: 4.3125rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--primary-green, #96D068);
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    margin-top: 2rem;
+    margin-left: 20rem;
+}
+
+.connect-with-us-txt {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Connect With Us Section Ends Here*/
+/* Company TradeMark (see bottom of page ) */
+.autopay2022 {
+    color: rgba(255, 255, 255, 0.35);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.215rem;
+    position: relative;
+    position: relative;
+    top: 22.5rem;
+    left: 82rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
