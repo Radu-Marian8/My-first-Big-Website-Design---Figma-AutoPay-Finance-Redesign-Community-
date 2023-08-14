@@ -27,7 +27,7 @@ body {
     height: 100vh;
 }
 
-/* logo side navbar Auto - Pay */
+/* logo side navbar AutoPay- Text*/
 
 .logo-with-text {
     display: flex;
@@ -42,7 +42,6 @@ body {
     position: relative;
     margin-right: 0.325rem;
 }
-
 
 /* entire navbar */
 
@@ -79,7 +78,6 @@ ul {
     color: var(--green);
     font-family: var(--font);
     font-size: var(--btn-font-size);
-    ;
     font-style: normal;
     font-weight: var(--font-w400);
     line-height: normal;
@@ -127,9 +125,7 @@ ul {
     top: 5rem;
 }
 
-/* first button under navbar Position */
-
-/* frist header */
+/* header */
 .header {
     position: relative;
     width: 1095px;
@@ -137,7 +133,6 @@ ul {
     top: 6.25rem;
     left: 54.5rem;
     font-family: var(--font);
-    ;
     font-size: 96px;
     font-weight: var(--font-w600);
     line-height: 117px;
@@ -176,7 +171,6 @@ ul {
     top: 15rem;
     left: 59.5rem;
 }
-
 /* Mobile app preview Photo - to be styled right to previous image */
 
 .img2 {
@@ -260,7 +254,6 @@ ul {
 .visibility-and-control-h6 {
     color: var(--white);
     font-family: var(--font);
-    ;
     font-size: 4rem;
     font-style: normal;
     font-weight: var(--font-w600);
@@ -277,7 +270,6 @@ ul {
 .visibility-and-control-h2 {
     color: var(--white);
     font-family: var(--font);
-    ;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: var(--font-w400);
@@ -313,7 +305,6 @@ ul {
     background: linear-gradient(148deg, rgba(109, 109, 109, 0.60) 0%,
             rgba(17, 16, 29, 0.60) 100%);
     margin-top: 10.5rem;
-
 }
 
 .connect-with-us-h6 {
@@ -322,8 +313,8 @@ ul {
 
 .connect-with-us-h2 {
     padding: 0 0 0 2rem;
-}
 
+}
 .connect-with-us-btn {
     width: 15.625rem;
     height: 4.3125rem;
@@ -341,7 +332,7 @@ ul {
     margin-left: 20rem;
 }
 
-/* company trademark */
+/*company trademark */
 .autopay2022 {
     color: rgba(255, 255, 255, 0.35);
     font-family: var(--font);
