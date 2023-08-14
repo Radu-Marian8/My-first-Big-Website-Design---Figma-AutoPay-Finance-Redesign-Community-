@@ -7,8 +7,9 @@
     --font-w400: 400;
     --font-w600: 600;
     --font-w700: 700;
+    --white: #fff;
+    --green: #96D068;
 }
-
 
 /* reset */
 * {
@@ -62,7 +63,7 @@ ul {
 
 /* right side navbar buttons styling */
 .navbtn {
-    color: var(--white, #FFF);
+    color: var(--white);
     font-family: var(--font);
     font-size: var(--btn-font-size);
     font-style: normal;
@@ -75,7 +76,7 @@ ul {
 
 /* Home button styling */
 .home {
-    color: var(--primary-green, #96D068);
+    color: var(--green);
     font-family: var(--font);
     font-size: var(--btn-font-size);
     ;
@@ -97,7 +98,7 @@ ul {
 
 /* Logo text-Auto */
 .auto {
-    color: var(--primary-green, #96D068);
+    color: var(--green);
     font-family: var(--font);
     ;
     font-size: 1.5rem;
@@ -107,7 +108,7 @@ ul {
 
 /* Logo text-Pay */
 .pay {
-    color: var(--white, #FFF);
+    color: var(--white);
     font-family: var(--font);
     font-size: 1.5rem;
     font-weight: var(--font-w700);
@@ -120,7 +121,7 @@ ul {
     height: 50px;
     border-radius: 10px;
     background: #FF6154;
-    color: #FFF;
+    color: var(--white);
     position: relative;
     left: 81rem;
     top: 5rem;
@@ -142,12 +143,12 @@ ul {
     line-height: 117px;
     letter-spacing: 0em;
     text-align: center;
-    color: #FFF;
+    color: var(--white);
 }
 
 /* green "automated" word */
 .automated {
-    color: #96D068
+    color: var(--green);
 }
 
 /* description - first text under first header */
@@ -164,7 +165,7 @@ ul {
     line-height: 36px;
     letter-spacing: 0.05em;
     text-align: center;
-    color: #FFF;
+    color: var(--white);
 }
 
 /* Laptop App Preview Photo - style with mobile app preview photo next to it */
@@ -203,7 +204,7 @@ ul {
     height: 3.125rem;
     flex-shrink: 0;
     margin-right: 2rem;
-    color: var(--white, #FFF);
+    color: var(--white);
     font-family: var(--font);
     font-size: var(--btn-font-size);
     ;
@@ -257,7 +258,7 @@ ul {
 .mobile-checkout-h6,
 .secure-on-chain-h6,
 .visibility-and-control-h6 {
-    color: var(--white, #FFF);
+    color: var(--white);
     font-family: var(--font);
     ;
     font-size: 4rem;
@@ -274,7 +275,7 @@ ul {
 .mobile-checkout-h2,
 .secure-on-chain-h2,
 .visibility-and-control-h2 {
-    color: #FFF;
+    color: var(--white);
     font-family: var(--font);
     ;
     font-size: 1.5rem;
@@ -309,7 +310,8 @@ ul {
     display: flex;
     flex-direction: row;
     border-radius: 1.25rem;
-    background: linear-gradient(148deg, rgba(109, 109, 109, 0.60) 0%, rgba(17, 16, 29, 0.60) 100%);
+    background: linear-gradient(148deg, rgba(109, 109, 109, 0.60) 0%,
+            rgba(17, 16, 29, 0.60) 100%);
     margin-top: 10.5rem;
 
 }
@@ -328,7 +330,7 @@ ul {
     flex-shrink: 0;
     border-radius: 0.625rem;
     background: var(--primary-green, #96D068);
-    color: var(--white, #FFF);
+    color: var(--white);
     font-family: var(--font);
     font-size: 1.5rem;
     font-style: normal;
@@ -344,7 +346,6 @@ ul {
     color: rgba(255, 255, 255, 0.35);
     font-family: var(--font);
     font-size: var(--btn-font-size);
-    ;
     font-style: normal;
     font-weight: var(--font-w400);
     line-height: 1.215rem;
